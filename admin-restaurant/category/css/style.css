@@ -1,0 +1,150 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .text-color{
+    color: #ff6b81;
+}
+.text-font{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: #ff6b81;
+}
+
+.text-font:hover{
+    color:#ff4757;
+}
+
+.style-btn{
+    background-color: #ff6b81;
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+    padding: 1.1%;
+    cursor: pointer;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.w-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.pad-8{
+    padding: 8x;
+}
+
+.m-w-50{
+    max-width: 50% !important;
+}
+
+.clear{
+    clear: both;
+}
+
+#header {
+    background-color: #fff;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 32px 0;
+}
+
+#header .text-font{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: #ff6b81;
+}
+
+#header .text-font:hover{
+    color:#ff4757;
+}
+
+/* body */
+#body{
+    background-color: #f1f1f1;
+    margin-top: 112px;
+    padding: 32px 0;
+    
+}
+
+.content{
+    margin: 32px 0 64px;
+    font-weight: bold;
+}
+
+.add-new-user{
+    padding: 8px 16px;
+    border: none;
+    background-color: #3300ff;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 48px;
+}
+
+/* table */
+.table-section{
+    font-size: 20px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.table-section tr {
+    height: 64px;
+}
+
+.img-td{
+    width: 20%;
+    margin-bottom: 16px;
+}
+
+.table-section span{
+    padding: 16px 8px;
+    margin-right: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.table-section .password{
+    background-color:#3300ff ;
+}
+
+.table-section .update{
+    background-color: #00ff33;
+}
+
+.table-section .delete{
+    background-color: #ff6b81;
+}
+
+
+
+/* footer */
+#footer{
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    background-color: #ff4757;
+}
+
+#footer p{
+    color:#fff;
+    margin:auto 0;
+    letter-spacing: 1px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #3300cc;
+}
+
+
+
+
